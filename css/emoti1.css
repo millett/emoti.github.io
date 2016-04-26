@@ -23,7 +23,7 @@ h3,
 h4,
 h5,
 h6 {
-    margin: 0 0 35px;
+    margin: 0 0 5px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
@@ -34,6 +34,7 @@ p {
     margin: 0 0 25px;
     font-size: 18px;
     line-height: 1.5;
+    font-family: verdana;
 }
 
 @media(min-width:768px) {
@@ -377,6 +378,18 @@ div.stevePhoto:hover ~ div.steveTxt {
 }
 
 
+.partner-intro-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    /*background: url(../img/alpha_bg.jpg) no-repeat center center scroll;*/
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 .about-section {
     width: 100%;
     padding: 50px 0;
@@ -388,6 +401,19 @@ div.stevePhoto:hover ~ div.steveTxt {
     background-size: cover;
     -o-background-size: cover;
 }
+
+
+.faq-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 
 
 .download-section {
